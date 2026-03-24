@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Tariq Aziz | Associate Professor UAF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-green: #2e7d32;
+            --light-green: #e8f5e9;
+            --dark-green: #1b5e20;
+            --text-grey: #333;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text-grey);
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--dark-green);
+            color: white;
+            padding: 1rem 5%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links li a:hover {
+            color: #a5d6a7;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background: var(--white);
+            padding: 2rem 5%;
+            text-align: center;
+            border-bottom: 5px solid var(--primary-green);
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            height: 80px;
+            width: auto;
+        }
+
+        .profile-hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile-pic {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            border: 5px solid var(--primary-green);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Sections */
+        section {
+            padding: 4rem 10%;
+            background: var(--white);
+            margin-bottom: 20px;
+        }
+
+        section:nth-child(even) {
+            background: var(--light-green);
+        }
+
+        h2 {
+            color: var(--primary-green);
+            border-bottom: 2px solid var(--primary-green);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        /* Tables */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .data-table th {
+            background-color: var(--primary-green);
+            color: white;
+        }
+
+        /* Lists and Links */
+        .pub-link {
+            display: block;
+            margin: 10px 0;
+            color: var(--dark-green);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .pub-link:hover {
+            text-decoration: underline;
+        }
+
+        .contact-icons {
+            font-size: 1.5rem;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .contact-icons a {
+            color: var(--primary-green);
+        }
+
+        footer {
+            background: var(--dark-green);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .logo-container { flex-direction: column; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">DR. TARIQ AZIZ</div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#academic">Academic</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#students">Students</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header>
+    <div class="logo-container">
+        <img src="1000071939.png" alt="UAF Logo">
+        <img src="1000071940.png" alt="INI Logo">
+    </div>
+    <div class="profile-hero">
+        <img src="1000071938.jpg" alt="Dr. Tariq Aziz" class="profile-pic">
+        <h1>DR. TARIQ AZIZ</h1>
+        <p>Associate Professor (Soil Science) | Regional Director South Asia (INI)</p>
+    </div>
+</header>
+
+<section id="about">
+    <h2>Introduction</h2>
+    <p>Dr. Aziz serves as the Regional Director for South Asia at the International Nitrogen Initiative (INI) and holds the position of Associate Professor of Soil Science at the University of Agriculture, Faisalabad (UAF), Pakistan. He is the lead partner from Pakistan in the global project "South Asia Nitrogen Hub" and is also involved in the UNEP/GEF funded project “International Nitrogen Management Systems (INMS)”. As a lead Editor, he has published “Nitrogen Assessment: Pakistan as a case study”.</p>
+    <br>
+    <p>Dr. Aziz has published more than 120 research articles, and produced 48 M.Sc. and 5 Ph.D students in the discipline of Soil Science. His research interests are i) improving fertilizer use efficiency, ii) nutrient recycling, iii) nutrient pollution.</p>
+    <br>
+    <p>Dr Aziz also served for about 7 years as Principal of UAF Sub-Campus Depalpur, Okara, and Project Director of two development projects worth Rs. 1300 million. He has vast international experience and live collaborations in his field, and has organized and participated in various global Science Conferences.</p>
+</section>
+
+<section id="academic">
+    <h2>Academic Information</h2>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Degree/Certificate</th>
+                <th>Subject</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>B.Sc. (Hons.)</td><td>Agriculture</td><td>University of Agriculture, Faisalabad</td><td>1995-99</td></tr>
+            <tr><td>M.Sc. (Hons.)</td><td>Soil Science</td><td>University of Agriculture, Faisalabad</td><td>1999-01</td></tr>
+            <tr><td>Post Graduate Training</td><td>Plant Nutrition</td><td>Institute of Plant Nutrition, Germany</td><td>2005</td></tr>
+            <tr><td>Ph.D.</td><td>Soil Science</td><td>University of Agriculture, Faisalabad</td><td>2002-06</td></tr>
+            <tr><td>Post Doc.</td><td>Plant Physiology</td><td>University of Western Australia</td><td>2011-12</td></tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="experience">
+    <h2>Professional Experience</h2>
+    <ul style="list-style-type: square; padding-left: 20px;">
+        <li><strong>Regional Director (South Asia):</strong> International Nitrogen Initiative (INI)</li>
+        <li><strong>Associate Professor:</strong> Institute of Soil & Environmental Sciences, UAF</li>
+        <li><strong>Member Steering Committee:</strong> Global Partnership on Nutrient Management (GPNM), UNEP</li>
+        <li><strong>Principal (Former):</strong> UAF Sub-Campus Depalpur, Okara (7 Years)</li>
+    </ul>
+</section>
+
+<section id="publications">
+    <h2>Books & Research Articles</h2>
+    <h3>Featured Links</h3>
+    <a href="https://doi.org/10.59117/20.500.11822/46562" target="_blank" class="pub-link">Nitrogen Assessment: Pakistan as a Case Study</a>
+    <a href="https://doi.org/10.1007/978-981-97-6635-2" target="_blank" class="pub-link">Sustainable Soil Management (Springer)</a>
+    <a href="https://doi.org/10.1007/s42729-025-02310-5" target="_blank" class="pub-link">Recent Advances in Soil Science 2025</a>
+    <a href="https://doi.org/10.3389/fpls.2023.1325370" target="_blank" class="pub-link">Frontiers in Plant Science - Research Article</a>
+    <a href="https://doi.org/10.1016/j.scitotenv.2020.138181" target="_blank" class="pub-link">Science of The Total Environment (Impact Factor 10.75)</a>
+    <a href="https://doi.org/10.1038/s41598-020-61147-3" target="_blank" class="pub-link">Scientific Reports - Nature (Impact Factor 4.99)</a>
+    
+    <div style="margin-top:20px;">
+        <h4>Additional Publications</h4>
+        <a href="https://lnkd.in/ezTchKcX" target="_blank" class="pub-link">LinkedIn Publication Portfolio</a>
+        <a href="https://doi.org/10.1016/j.eti.2021.102250" target="_blank" class="pub-link">Environmental Technology & Innovation</a>
+        <a href="https://doi.org/10.1016/j.ecoenv.2021.112148" target="_blank" class="pub-link">Ecotoxicology and Environmental Safety</a>
+        <a href="http://iopscience.iop.org/article/10.1088/1748-9326/aaa9c5/meta" target="_blank" class="pub-link">Environmental Research Letters</a>
+    </div>
+</section>
+
+<section id="students">
+    <h2>Supervised Students</h2>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Number of Students</th>
+                <th>Discipline</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Ph.D.</td><td>5</td><td>Soil Science</td></tr>
+            <tr><td>M.Sc. (Hons)</td><td>48</td><td>Soil Science</td></tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Official Address:</strong> Institute of Soil & Environmental Sciences, University of Agriculture, Faisalabad, Pakistan.</p>
+    <p><strong>Email:</strong> draziz@uaf.edu.pk</p>
+    <p><strong>Phone:</strong> +92 333 896 2334</p>
+    
+    <div class="contact-icons">
+        <a href="https://orcid.org/0000-0002-4300-3813" target="_blank"><i class="fab fa-orcid"></i> ORCID</a>
+        <a href="https://initrogen.org/content/tariq-aziz" target="_blank"><i class="fas fa-globe"></i> INI Profile</a>
+        <a href="https://web.uaf.edu.pk/FacultyProfile/Profile/516" target="_blank"><i class="fas fa-university"></i> UAF Profile</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Dr. Tariq Aziz - University of Agriculture, Faisalabad</p>
+</footer>
+
+</body>
+</html>
